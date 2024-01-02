@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show hidden HTML element.</title>
+</head>
+<body>
+    <h2>What JavaScript can do?</h2>
+
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="demo" style="display: none;">Hello JavaScript</p>
+
+    <button type="button" onclick="document.getElementById('demo').style.display = 'block'">Click Me</button>
+</body>
+</html>
