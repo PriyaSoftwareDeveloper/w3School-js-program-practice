@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>External JavaScript Demo</title>
+  </head>
+  <body>
+    <h2>Demo External javascript</h2>
+
+    <p id="demo">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+  </body>
+  <script src="myScript.js"></script>
+</html>
