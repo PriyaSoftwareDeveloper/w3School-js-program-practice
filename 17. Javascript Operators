@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Operators</title>
+  </head>
+  <body>
+    <h2>Javascript Operators</h2>
+
+    <p>
+      JavaScript uses arithmetic operators to compute values (jus like algebra.)
+    </p>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    document.getElementById("demo").innerHTML = (5 + 6) * 10
+  </script>
+</html>
