@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Strings</title>
+  </head>
+  <body>
+    <h2>Javascript Strings</h2>
+
+    <p>Strings can be written with double or single quotes.</p>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    document.getElementById("demo").innerHTML = "John Doe";
+  </script>
+</html>
