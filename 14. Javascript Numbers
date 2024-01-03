@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Numbers</title>
+  </head>
+  <body>
+    <h2>Javascript Numbers</h2>
+
+    <p>Number can be written with or without decimals.</p>
+
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("demo").innerHTML = 10.5;
+    </script>
+  </body>
+</html>
