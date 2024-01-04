@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Statements</title>
+  </head>
+  <body>
+    <h2>Javascript Statements</h2>
+
+    <p>Javascript statements are seperated by semicolons.</p>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    let a, b, c
+    a = 5
+    b = 6
+    c = a + b
+
+    document.getElementById("demo").innerHTML = c
+  </script>
+</html>
