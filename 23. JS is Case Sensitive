@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS is Case Sensitive</title>
+  </head>
+  <body>
+    <h2>JS is Case Sensitive</h2>
+
+    <p>Try to change lastname to lastname</p>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    let lastname, lastName
+    lastName = "Doe"
+    lastname = "Peterson"
+    document.getElementById("demo").innerHTML = lastName
+  </script>
+</html>
