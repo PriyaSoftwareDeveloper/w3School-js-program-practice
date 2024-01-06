@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Objects</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      // Create an object:
+      const car = { type: "Fiat", model: "white", color: "white" }
+
+      // Display some data from the object:
+      document.getElementById("demo").innerHTML = "The car type is " + car.type
+    </script>
+  </body>
+</html>
