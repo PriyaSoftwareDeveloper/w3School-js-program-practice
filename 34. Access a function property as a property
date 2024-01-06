@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Objects</title>
+  </head>
+  <body>
+    <h2>JavaScript Objects</h2>
+    <p>
+      If you access an object without (), it will return the function definition:
+    </p>
+
+    <p id="demo"></p>
+
+    <script>
+      const person = {
+        firstname: "John",
+        lastname: "Doe",
+        age: 50,
+        eyeColor: "Blue",
+        id: 5566,
+        fullName: function () {
+          return this.firstname + " " + this.lastname;
+        },
+      }
+
+      document.getElementById("demo").innerHTML = person.fullName;
+    </script>
+  </body>
+</html>
