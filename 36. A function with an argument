@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Functions</title>
+  </head>
+  <body>
+    <p>Click "Try it" to call a function with arguments.</p>
+
+    <button onclick="myFunction('Harry Potter','Wizard')">Try it</button>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    function myFunction(name, job) {
+      document.getElementById("demo").innerHTML = "Welcome " + name + ", the " + job + ".";
+    }
+  </script>
+</html>
