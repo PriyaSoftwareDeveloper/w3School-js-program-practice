@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Functions</title>
+  </head>
+  <body>
+    <p>When you click "Try it", a function will be called.</p>
+    <p>The function will display a message.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Vedhakshaya!";
+    }
+  </script>
+</html>
