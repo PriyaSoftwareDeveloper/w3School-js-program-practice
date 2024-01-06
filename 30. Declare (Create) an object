@@ -7,13 +7,15 @@
     <h2>JavaScript Objects</h2>
     <p id="demo"></p>
     <script>
+      const person = {firstName:"John", lastName:"Doe", Age:50, eyeColor:"blue"};
+      // or
       const person = {
         firstname: "John",
         lastname: "Doe",
         age: 50,
-        eyeColor: "Blue",
+        eyecolor: "Blue",
       }
-
+      
       document.getElementById("demo").innerHTML = person.firstname + " is " + person.age + " years old."
     </script>
   </body>
