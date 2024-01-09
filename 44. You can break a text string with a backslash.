@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>You can break a text string with a backslash.</title>
+  </head>
+  <body>
+    <h1>Javascript Strings</h1>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    document.getElementById("demo").innerHTML = "Hello \ Dolly!"
+  </script>
+</html>
