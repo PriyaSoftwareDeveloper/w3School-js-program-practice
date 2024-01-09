@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backslash before quotes accepts quotes as quotes</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+  </body>
+  <script>
+    var x = "It's alright";
+    var y = 'We are the so-called "Vikings" from the north.';
+
+    document.getElementById("demo").innerHTML = x + "<br>" + y;
+  </script>
+</html>
