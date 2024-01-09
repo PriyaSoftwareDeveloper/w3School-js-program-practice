@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find the position of the first occurence of a text in a string - indexOf()</title>
+  </head>
+  <body>
+    <h1>Javascript Strings</h1>
+    <h2>The indexOf() Method</h2>
+    <p>indexOf() method returns the position of the first occurence of a string in a string.</p>
+    <p>The position of the first occurence of "locate" is:</p>
+    <p id="demo"></p>
+  </body>
+  <script>
+    let text = "Please locate where 'locate' occurs!";
+    let index = text.indexOf("locate");
+    document.getElementById("demo").innerHTML = index;
+  </script>
+</html>
