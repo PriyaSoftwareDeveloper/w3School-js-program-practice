@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Click the button to perform a global (/g) search for the letters "ain"
+      (/ain) in a string, and display the matches.
+    </p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    function myFunction() {
+      var str = "The rain in SPAIN mainly in the plain";
+      var res = str.match(/ain/g);
+      document.getElementById("demo").innerHTML = res;
+    }
+  </script>
+</html>
