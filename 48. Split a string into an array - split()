@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Split a string into an array - split()</title>
+  </head>
+  <body>
+    <h1>Javascript String Methods</h1>
+    <p>Display the first array element, after a string split:</p>
+
+    <p id="demo"></p>
+  </body>
+  <script>
+    let text = "a, b, c, d, e, f";
+    const myArray = text.split(",");
+    document.getElementById("demo").innerHTML = myArray[0];
+  </script>
+</html>
