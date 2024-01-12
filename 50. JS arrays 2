@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Js array</title>
+  </head>
+  <body>
+    <h1>JS arrays</h1>
+    <p id="demo"></p>
+  </body>
+  <script>
+    const cars = [
+        "saab", 
+        "volvo", 
+        "bmw"
+    ];
+    document.getElementById("demo").innerHTML = cars;
+  </script>
+</html>
